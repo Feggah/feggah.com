@@ -1,0 +1,63 @@
+baseurl = "http://www.feggah.com/"
+title = "Feggah"
+theme = "hugo-coder"
+languagecode = "pt-br"
+defaultcontentlanguage = "pt-br"
+
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+  author = "Gabriel Ferreira"
+  info = "DevOps Engineer and Runner"
+  description = "Blog pessoal do Gabriel Ferreira (Feggah)"
+  keywords = "blog,developer,personal,devops"
+  avatarurl = "img/avatar.jpeg"
+
+  #favicon_32 = "/img/favicon-32x32.png"
+  #favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2022
+
+  enableTwemoji = true
+
+  colorScheme = "dark"
+  hidecolorschemetoggle = false
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/Feggah/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/feggah_/"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 3
+  url = "https://linkedin.com/in/feggah/"
+
+# Menu links
+#[[menu.main]]
+#  name = "Blog"
+#  weight = 1
+#  url  = "posts/"
+#[[menu.main]]
+#  name = "Sobre"
+#  weight = 2
+#  url = "about/"
