@@ -59,7 +59,7 @@ disqusShortname = "feggah"
 #  name = "Blog"
 #  weight = 1
 #  url  = "posts/"
-#[[menu.main]]
-#  name = "Sobre"
-#  weight = 2
-#  url = "about/"
+[[menu.main]]
+  name = "Sobre"
+  weight = 1
+  url = "about/"
