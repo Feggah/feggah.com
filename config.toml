@@ -3,6 +3,7 @@ title = "Feggah"
 theme = "hugo-coder"
 languagecode = "pt-br"
 defaultcontentlanguage = "pt-br"
+googleAnalytics = "G-35LWRSBSH4"
 
 paginate = 20
 
