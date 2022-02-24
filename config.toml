@@ -11,12 +11,13 @@ pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "yourdiscussshortname"
+disqusShortname = "feggah"
 
 [params]
   author = "Gabriel Ferreira"
   info = "DevOps Engineer and Runner"
-  description = "Blog pessoal do Gabriel Ferreira (Feggah)"
+  description = "Gabriel Ferreira's blog"
+  images = ["img/avatar.jpg"]
   keywords = "blog,developer,personal,devops"
   avatarurl = "img/avatar.jpeg"
 
