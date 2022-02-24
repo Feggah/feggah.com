@@ -17,7 +17,7 @@ disqusShortname = "feggah"
   author = "Gabriel Ferreira"
   info = "DevOps Engineer and Runner"
   description = "Gabriel Ferreira's blog"
-  images = ["img/avatar.jpg"]
+  images = ["img/avatar.jpeg"]
   keywords = "blog,developer,personal,devops"
   avatarurl = "img/avatar.jpeg"
 
