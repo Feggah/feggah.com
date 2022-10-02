@@ -1,11 +1,11 @@
 ---
-title: "Sobre mim"
+title: "About me"
 date: 2022-02-24T06:18:29-03:00
 draft: false
 ---
 
-Meu nome é Gabriel Ferreira, trabalho como engenheiro DevOps e gosto de desenvolver [plataformas internas](https://internaldeveloperplatform.org/) para facilitar a vida dos clientes internos, buscando principalmente aumentar sua produtividade e autonomia. Contribuo para o projeto open-source [Crossplane](https://crossplane.io/), onde sou _maintainer_ do repositório [provider-gcp](https://github.com/crossplane/provider-gcp).
+My name is Gabriel Ferreira, I'm from Brazil, I work as a Platform Engineer and I like to develop [internal developer platforms](https://internaldeveloperplatform.org/) to help company's internal clients (usually developers), primarily seeking to improve their productivity and autonomy. I'm pasionate about open-source and I contribute to [Crossplane](https://crossplane.io/), where I'm maintainer of the [provider-gcp](https://github.com/crossplane-contrib/provider-gcp) repository.
 
-Cheguei em DevOps a partir da área de desenvolvimento, e não de operações (que sinto que é o caminho mais comum). Isso reflete muito no meu trabalho, já que sou o tipo de DevOps que defende (e prefere) *developing over operating*.
+I came from development before entering to the DevOps space. This reflects at my work, because I'm a DevOps engineer who defends (and prefer) *developing over operating*.
 
-Feggah surgiu através da junção das primeiras sílabas do meu nome e sobrenome, **Ga**briel **Fe**rreira. Não gostei de **GaFe**, então troquei para **FeGa** e dei uma estilizada, foi aí que surgiu o **Feggah**.
+My nickname Feggah came from the union of the first syllables of my first and last names, **Ga**briel **Fe**rreira. I didn't like **GaFe**, so I swapped the order to **FeGa** and stylized it a little, resulting in **Feggah**.

@@ -1,8 +1,8 @@
-baseurl = "http://www.feggah.com/"
+baseurl = "https://feggah.com/"
 title = "Feggah"
 theme = "hugo-coder"
-languagecode = "pt-br"
-defaultcontentlanguage = "pt-br"
+languagecode = "en"
+defaultcontentlanguage = "en"
 googleAnalytics = "G-35LWRSBSH4"
 
 paginate = 20
@@ -11,11 +11,9 @@ pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "feggah"
-
 [params]
   author = "Gabriel Ferreira"
-  info = "DevOps Engineer and Runner"
+  info = "DevOps Engineer, Aquarist and Runner"
   description = "Gabriel Ferreira's blog"
   images = ["img/avatar.jpeg"]
   keywords = "blog,developer,personal,devops"
@@ -23,6 +21,8 @@ disqusShortname = "feggah"
 
   favicon_32 = "/img/favicon-32x32.png"
   favicon_16 = "/img/favicon-16x16.png"
+
+  dateFormat = ":date_long"
 
   since = 2022
 
@@ -56,10 +56,10 @@ disqusShortname = "feggah"
 
 # Menu links
 #[[menu.main]]
-#  name = "Blog"
+#  name = "Posts"
 #  weight = 1
 #  url  = "posts/"
 [[menu.main]]
-  name = "Sobre"
-  weight = 1
+  name = "About"
+  weight = 2
   url = "about/"
