@@ -13,7 +13,7 @@ pygmentscodefencesguesssyntax = true
 
 [params]
   author = "Gabriel Ferreira"
-  info = "DevOps Engineer, Aquarist and Runner"
+  info = "Software Engineer, Aquarist and Runner"
   description = "Gabriel Ferreira's blog"
   images = ["img/avatar.jpeg"]
   keywords = "blog,developer,personal,devops"
