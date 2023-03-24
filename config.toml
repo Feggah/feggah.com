@@ -55,10 +55,10 @@ pygmentscodefencesguesssyntax = true
   url = "https://linkedin.com/in/feggah/"
 
 # Menu links
-#[[menu.main]]
-#  name = "Posts"
-#  weight = 1
-#  url  = "posts/"
+[[menu.main]]
+  name = "Posts"
+  weight = 1
+  url  = "posts/"
 [[menu.main]]
   name = "About"
   weight = 2
