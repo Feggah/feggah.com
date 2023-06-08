@@ -31,6 +31,11 @@ pygmentscodefencesguesssyntax = true
   colorScheme = "dark"
   hidecolorschemetoggle = false
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [taxonomies]
   category = "categories"
   series = "series"
