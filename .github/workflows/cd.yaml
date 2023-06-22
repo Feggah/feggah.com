@@ -34,13 +34,14 @@ jobs:
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
           git config --global user.email "gabriel@feggah.com"
           git config --global user.name "Feggah"
+          git branch main
           git add .
-          git log
           git commit -m "Deploy generated content"
           git push
 
       - name: Update submodule reference
         run: |
+          git branch main
           git add .
           git commit -s -m "Update submodule"
           git push
