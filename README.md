@@ -4,7 +4,7 @@
 
 To spin up the local blog, just use `make local`.
 
-To create new posts, use the command `hugo new posts/dd-mm-yyyy.md`
+To create new posts, use the command `make post`.
 
 To deploy new modifications:
 
