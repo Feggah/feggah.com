@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
 
       - name: Setup hugo
         uses: peaceiris/actions-hugo@v2
@@ -23,19 +25,20 @@ jobs:
           hugo-version: "0.92.2"
 
       - name: Generate Static Content
-        run: make Generate
-
-      - name: Commit to GitHub Pages (Feggah.github.io)
-        run: |
-          cd public
-          git config --global --add safe.directory "$GITHUB_WORKSPACE"
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add .
-          git commit -m "Deploy generated content"
+        run: make generate
 
       - name: Push to GitHub Pages (Feggah.github.io)
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.PAT_TOKEN }}
-          repository: Feggah/Feggah.github.io
+        working-directory: ./public
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git config --local user.email "gabriel@feggah.com"
+          git config --local user.name "Feggah"
+          git add .
+          git commit -m "Deploy generated content"
+          git push origin main
+
+      - name: Update submodule reference
+        run: |
+          git add .
+          git commit -s -m "Update submodule"
+          git push origin main
