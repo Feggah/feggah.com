@@ -15,6 +15,12 @@ jobs:
   push:
     runs-on: ubuntu-22.04
     steps:
+      - name: Config Git
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git config --global user.email "${{ secrets.EMAIL }}"
+          git config --global user.name "Feggah"
+  
       - name: Checkout
         uses: actions/checkout@v3
         with:
@@ -32,9 +38,6 @@ jobs:
       - name: Push to GitHub Pages (Feggah.github.io)
         working-directory: ./public
         run: |
-          git config --global --add safe.directory "$GITHUB_WORKSPACE"
-          git config --global user.email "${{ secrets.EMAIL }}"
-          git config --global user.name "Feggah"
           git checkout main
           git add .
           git commit -m "Deploy generated content"
